@@ -1,7 +1,9 @@
 # SpringBoot-AttendanceAPI
-**A RESTful attendance API made in SpringBoot(JAVA)☕.**
+**A RESTful attendance API made in SpringBoot(JAVA)☕.**<br /><br />
+**Author : Gaurav Acharya - 17BCE1120 ✏**<br />
+**Faculty: Dr. Sridevi S.**
 ## 🛠 How to Build
-Download the project in your NetBeans/Eclipse/IntelliJ-IDE and it should build itself automatically(make sure you have maven builder). After the project has been built use `Shift+F10` to run the API at `http://localhost:8080`. Then you can test the API using software like [**Postman**](https://www.postman.com/).
+Download the project in your NetBeans/Eclipse/IntelliJ-IDE and it should build itself automatically(make sure you have maven builder). After the project has been built use `Shift+F10` to run the API at `http://localhost:8080`. Then you can test the API using software like [**Postman**](https://www.postman.com/). In case of error check **pom.xml** for dependencies.
 ## 📂 Folder Structure
 After the project has been built, the following project structure should emerge
 ```
@@ -171,5 +173,12 @@ The API consists of three resources with their suitable methods:
 </center>
 
 ## 📨 Working with POSTMAN
+Here I am sending a POST request to add a student in DB. You can do it similarly with the other resources and their methods.
+
+![POSTMAN-QUERY](https://github.com/whateverxforever/SpringBoot-AttendanceAPI/blob/master/assets/postman1.PNG)
+![POSTMAN-RESULT](https://github.com/whateverxforever/SpringBoot-AttendanceAPI/blob/master/assets/postman2.PNG)
 
 ## 💻 Using it in App
+I built a **REACT App** to consume this API(haven't included it in repository since it's in JavaScript and outside the scope of the project). Here is a small GIF for the application.
+![GIF-REACT](https://github.com/whateverxforever/SpringBoot-AttendanceAPI/blob/master/assets/working.gif)
+
